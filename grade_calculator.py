@@ -22,4 +22,4 @@ if __name__ == '__main__':
     student_name, average_grade = calculate_average_grade()
 
     # Print the student's name and their average grade
-    print(f"{student_name}'s average grade for Math, Science, and English class is {average_grade}.")
+    print(f"{student_name}'s average grade for Math, Science, and English class is {average_grade: .2f}.")
