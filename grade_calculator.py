@@ -1,4 +1,4 @@
-# This script calculates the average grade of math, science, and English scores
+# This script calculates the average grade of Math, Science, and English scores
 # Author: James Zheng
 
 def calculate_average_grade():
@@ -7,9 +7,9 @@ def calculate_average_grade():
 
     # Prompt the user for their scores in Math, Science, and English
     # Store the scores in the respective variables: math_score, science_score, english_score
-    math_score = int(input("Please enter your math score "))
-    science_score = int(input("Please enter your science score "))
-    english_score = int(input("Please enter your english score "))
+    math_score = int(input("Please enter your Math score "))
+    science_score = int(input("Please enter your Science score "))
+    english_score = int(input("Please enter your English score "))
 
     # Calculate the average grade
     average_grade = (math_score + science_score + english_score)/3
@@ -22,4 +22,4 @@ if __name__ == '__main__':
     student_name, average_grade = calculate_average_grade()
 
     # Print the student's name and their average grade
-    print(f"{student_name}'s average grade for math, science, and english class is {average_grade}.@")
+    print(f"{student_name}'s average grade for Math, Science, and English class is {average_grade}.")
